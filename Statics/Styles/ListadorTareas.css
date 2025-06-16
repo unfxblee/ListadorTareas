@@ -1,0 +1,116 @@
+body {
+    background-color: #b8b8b8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#contenedorTareas{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #a6b0aa;
+}
+.container_botones
+{
+    width: 66%;
+    background-color: #3a3d3b7b;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.mainbotones
+{
+    background-color: #35383a52;
+    color:#eeebeb;
+}
+.tarea{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #d4ccba;
+    border: 5px ridge #0000004b;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100px;
+    flex-shrink: 0;
+}
+.btn-eliminar
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+    background: #ff3737;
+    width : 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 0;
+}
+.tarea:hover .btn-eliminar
+{
+    display: block;
+}
+.colores
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#color1
+{
+    background-color: #d17171;
+}
+#color2
+{
+    background-color: #d1b171;
+}
+#color3
+{
+    background-color: #415b6e;
+}
+#color4
+{
+    background-color: #72aa60;
+}
+#color5
+{
+    background-color:#d4ccba;
+}
+.bot{
+        width: 200px;
+        height:fit-content;
+        cursor: pointer;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+.mainbotones:hover
+{
+    font-size: 20px;
+}
+#color1:hover
+{   
+    font-size: 20px;
+}
+#color2:hover
+{   
+    font-size: 20px;
+}
+#color3:hover
+{   
+    font-size: 20px;
+}
+#color4:hover
+{   
+   font-size: 20px;
+}
+#color5:hover
+{
+    font-size: 20px;
+}
+
